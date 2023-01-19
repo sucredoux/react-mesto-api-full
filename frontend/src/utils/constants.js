@@ -1,7 +1,7 @@
 
 
 const options = {
-  baseUrl: /*'https://mesto.nomoreparties.co/v1'*/ 'http://localhost:3000',
+  baseUrl: 'https://sucredoux.nomoredomains.club',
 };
 
 export { options }

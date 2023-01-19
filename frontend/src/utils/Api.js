@@ -121,7 +121,6 @@ export default class Api {
   }
 }
 
-
 const api = new Api(options);
 
 export { api };
