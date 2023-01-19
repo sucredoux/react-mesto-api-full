@@ -1,7 +1,7 @@
 
 
 const options = {
-  baseUrl: 'https://sucredoux.nomoredomains.club',
+  baseUrl: 'https://api.sucredoux.nomoredomains.club',
 };
 
 export { options }

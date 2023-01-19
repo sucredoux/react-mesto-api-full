@@ -1,5 +1,5 @@
 const authenticate = {
-    baseUrl: 'https://sucredoux.nomoredomains.club',
+    baseUrl: 'https://api.sucredoux.nomoredomains.club',
     headers: {
         "Content-Type": "application/json",
     }
