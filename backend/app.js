@@ -10,7 +10,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
 
-const { PORT/* = 3000*/, MONGO_URL/* = 'mongodb://127.0.0.1:27017/mestodb'*/ } = process.env;
+const { PORT, MONGO_URL } = process.env;
 
 const app = express();
 app.use(cookieParser());
@@ -22,7 +22,12 @@ app.use(cors());
 app.use(express.json());
 
 app.use(requestLogger);
-/*app.use(express.static('C:/Users/e7916/dev/react-mesto-api-full/frontend/build'));*/
+
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 
 app.use(routes);
 
