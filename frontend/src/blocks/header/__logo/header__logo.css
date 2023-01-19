@@ -1,0 +1,14 @@
+.header__logo {
+  max-height: 33px;
+  box-sizing: content-box;
+  padding-bottom: 40px;
+  align-content: flex-start;
+}
+
+@media (max-width: 400px) {
+  .header__logo {
+    max-height: 24.4px;
+    padding-left: 27px;
+    padding-bottom: 31.6px;
+  }
+}

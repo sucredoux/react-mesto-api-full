@@ -1,0 +1,11 @@
+.form__button_type_pop-up {
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    margin: 48px 0 0 0;
+}
+
+@media (max-width: 700px) {
+    .form__button_type_pop-up {
+      margin-top: 43px;
+    }
+  }

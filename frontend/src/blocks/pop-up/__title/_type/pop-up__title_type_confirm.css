@@ -1,0 +1,10 @@
+.pop-up__title_type_confirm {
+  padding-bottom: 0px;
+}
+  
+@media (max-width: 700px) {
+  .pop-up__title_type_confirm {
+    padding-bottom: 0px;
+    }
+  
+}

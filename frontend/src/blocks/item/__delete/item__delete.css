@@ -1,0 +1,14 @@
+.item__delete {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 18px;
+  height: 19px;
+  margin-top: 17px;
+  margin-left: 36px;
+  background-image: url(../../../images/item__delete.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  visibility: hidden;
+}

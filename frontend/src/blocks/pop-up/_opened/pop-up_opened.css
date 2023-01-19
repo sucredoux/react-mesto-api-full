@@ -1,0 +1,8 @@
+.pop-up_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.pop-up_opened:hover {
+  cursor: pointer;
+}

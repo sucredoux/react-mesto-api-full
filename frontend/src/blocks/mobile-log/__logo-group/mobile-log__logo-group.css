@@ -1,0 +1,8 @@
+.mobile-log__logo-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 28px;
+    width: 100%;
+}

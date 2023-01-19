@@ -1,0 +1,19 @@
+.profile__add {
+  width: 150px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../../../images/profile__add.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 950px) {
+  .profile__add {
+    width: 282px;
+    margin-top: 33px;
+    background-image: url(../../../images/profile__add-small.svg);
+  }
+}

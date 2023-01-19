@@ -1,0 +1,11 @@
+.form__button_type_auth {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    margin: 212px 0 15px 0;
+}
+
+@media (max-width: 700px) {
+    .form__button_type_auth {
+      margin: 173px 0 0 0;
+    }
+  }

@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  padding-top: 45px;
+}
+
+@media(max-width: 400px) {
+  .header {
+    padding-top: 28px;
+  }
+}

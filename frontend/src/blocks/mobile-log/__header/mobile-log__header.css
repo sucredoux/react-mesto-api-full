@@ -1,0 +1,6 @@
+.mobile-log__header {
+    flex-direction: column-reverse;
+    justify-items: flex-end;
+    margin: 0;
+    padding-top: 0;
+}

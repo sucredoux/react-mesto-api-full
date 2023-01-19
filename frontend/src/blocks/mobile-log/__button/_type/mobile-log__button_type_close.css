@@ -1,0 +1,5 @@
+.mobile-log__button_type_close {
+    background-image: url(../../../../images/pop-up__close.svg);
+    width: 20px;
+    height: 20px;
+}

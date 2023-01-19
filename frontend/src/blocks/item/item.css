@@ -1,0 +1,9 @@
+.item {
+  display: grid;
+  grid-template-columns: 211px 71px;
+  grid-template-rows: 282px 79px;
+  justify-content: flex-start;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}

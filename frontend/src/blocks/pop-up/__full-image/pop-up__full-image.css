@@ -1,0 +1,11 @@
+.pop-up__full-image {
+  max-height: 75vh;
+  max-width: 75vw;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .pop-up__full-image {
+    max-height: 299px;
+  }
+}

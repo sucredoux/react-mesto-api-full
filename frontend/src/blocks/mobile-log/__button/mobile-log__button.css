@@ -1,0 +1,10 @@
+.mobile-log__button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 20px 20px;
+    margin: 0;
+    position: relative;
+    border: none;
+    align-self: flex-end;
+}

@@ -1,0 +1,9 @@
+.item__like-block {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 21px 18px 20px 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

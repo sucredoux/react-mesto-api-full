@@ -1,0 +1,11 @@
+.pop-up__container {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 700px) {
+  .pop-up__container {
+    width: 282px;
+    padding: 24px 22px 25px 22px;
+  }
+}

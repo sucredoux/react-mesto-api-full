@@ -1,0 +1,15 @@
+.item__button {
+  width: 22px;
+  height: 19px;
+  margin-bottom: 3px;
+  background-image: url(../../../images/item__button.svg);
+  background-color: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.item__button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+

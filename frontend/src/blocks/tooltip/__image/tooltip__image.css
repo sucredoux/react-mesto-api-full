@@ -1,0 +1,15 @@
+.tooltip__image {
+    width: 120px;
+    height: 120px;
+    background-size: 120px 120px;
+    margin: 60px 119px 32px 119px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;     
+}
+
+@media (max-width: 700px) {
+    .tooltip__image {
+      margin: 50px 58px 40px 58px;
+    }
+}

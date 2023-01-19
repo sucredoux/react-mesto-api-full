@@ -1,0 +1,14 @@
+.form__input_type_auth {
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+@media (max-width: 400px) {
+    .form__input_type_auth {
+      width: 260px;
+      padding: 0 0 6px 0;
+      margin-top: 31px;
+    }
+}

@@ -1,0 +1,27 @@
+.pop-up__close {
+  background-image: url(../../../images/pop-up__close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0);
+  width: 32px;
+  height: 32px;
+  position: relative;
+  margin: 0 -40px 8px 8px;
+  border: none;
+  align-self: flex-end;
+}
+
+@media (max-width: 950px) {
+  .pop-up__close {
+    margin: 0 0 8px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .pop-up__close {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    margin: 0 0 16px 0;
+  }
+}
