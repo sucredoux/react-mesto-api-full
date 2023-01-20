@@ -36,7 +36,7 @@ const validateAuthBody = celebrate({
 
 const validateUserInfo = celebrate({
   params: Joi.object().keys({
-    id: Joi.string().alphanum().length(24).messages({
+    id: Joi.string().hex().length(24).messages({
       'any.messages': 'Невалидный id',
     }),
   }),
@@ -62,7 +62,7 @@ const validateUserInfo = celebrate({
 
 const validateCardInfo = celebrate({
   params: Joi.object().keys({
-    cardId: Joi.string().alphanum().length(24).messages({
+    cardId: Joi.string().hex().length(24).messages({
       'any.messages': 'Невалидный id',
     }),
   }),
@@ -86,7 +86,7 @@ const validateCardInfo = celebrate({
 
 const validateUserId = celebrate({
   params: Joi.object().keys({
-    id: Joi.string().alphanum().length(24).messages({
+    id: Joi.string().hex().length(24).messages({
       'any.messages': 'Невалидный id',
     }),
   }),
@@ -94,7 +94,7 @@ const validateUserId = celebrate({
 
 const validateCardId = celebrate({
   params: Joi.object().keys({
-    cardId: Joi.string().alphanum().length(24).messages({
+    cardId: Joi.string().hex().length(24).messages({
       'any.messages': 'Невалидный id',
     }),
   }),
