@@ -11,7 +11,6 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
 
-
 const { PORT, MONGO_URL } = process.env;
 
 const app = express();
@@ -20,7 +19,7 @@ app.use(bodyParser.json());
 
 mongoose.set('strictQuery', true);
 app.use(cors());
-app.use(helmet());
+/*app.use(helmet());*/
 
 app.use(express.json());
 
