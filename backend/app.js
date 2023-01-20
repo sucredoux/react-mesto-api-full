@@ -9,6 +9,7 @@ const { errors } = require('celebrate');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
+const helmet = require('helmet');
 
 const { PORT, MONGO_URL } = process.env;
 
@@ -18,6 +19,7 @@ app.use(bodyParser.json());
 
 mongoose.set('strictQuery', true);
 app.use(cors());
+app.use(helmet());
 
 app.use(express.json());
 
