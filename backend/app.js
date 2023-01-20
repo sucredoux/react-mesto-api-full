@@ -9,6 +9,10 @@ const { errors } = require('celebrate');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
+<<<<<<< HEAD
+=======
+const helmet = require('helmet');
+>>>>>>> parent of 625d8e4 (Helmet2)
 
 const { PORT, MONGO_URL } = process.env;
 
