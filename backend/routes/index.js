@@ -4,13 +4,13 @@ const cardRoutes = require('./cards');
 const authRoutes = require('./auth');
 const auth = require('../middlewares/auth');
 const { NotFoundErr } = require('../errors');
-/*const corsHandler = require('../middlewares/cors');*/
+const corsHandler = require('../middlewares/cors');
 
 const routes = express.Router();
 
-routes.use('/', /*corsHandler, */authRoutes);
-routes.use('/users', /*corsHandler, */auth, userRoutes);
-routes.use('/cards', /*corsHandler, */auth, cardRoutes);
+routes.use('/', corsHandler, authRoutes);
+routes.use('/users', corsHandler, auth, userRoutes);
+routes.use('/cards', corsHandler, auth, cardRoutes);
 
 routes.use('/', express.json(), auth, (req, res, next) => {
   try {

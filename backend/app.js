@@ -4,9 +4,8 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const cors = require('cors');
+/*const cors = require('cors');*/
 const { errors } = require('celebrate');
-/*const helmet = require('helmet');*/
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
@@ -18,8 +17,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 mongoose.set('strictQuery', true);
-app.use(cors());
-/*app.use(helmet());*/
+/*app.use(cors());*/
 app.use(express.json());
 
 app.use(requestLogger);
