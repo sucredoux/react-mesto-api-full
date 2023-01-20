@@ -6,10 +6,11 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { errors } = require('celebrate');
+const helmet = require('helmet');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const routes = require('./routes/index');
 const errorHandler = require('./middlewares/err-handler');
-const helmet = require('helmet');
+
 
 const { PORT, MONGO_URL } = process.env;
 
