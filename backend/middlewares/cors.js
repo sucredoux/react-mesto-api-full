@@ -1,6 +1,8 @@
 const allowedCors = [
   'https://sucredoux.nomoredomains.club',
   'http://sucredoux.nomoredomains.club',
+  'https://api.sucredoux.nomoredomains.club',
+  'http://api.sucredoux.nomoredomains.club',
   'localhost:3000',
   'localhost:3001',
 ];
